@@ -1,0 +1,53 @@
+
+.Cart{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d6d6d686;
+}
+.sidebar-cart {
+  position: fixed;
+  top: 50px;
+  left: -350px;
+  width: 250px;
+  height: 600px;
+  background-color: white;
+  padding: 20px;
+  transition: right 0.3s;
+
+}
+
+.sidebar-cart.open {
+  left:  0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.remove-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: right;
+}

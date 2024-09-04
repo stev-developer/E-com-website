@@ -1,0 +1,94 @@
+
+
+.shipping {
+
+  height: 30px;
+  background-color: rgb(95 95 75);
+  padding: 10px;
+  color: rgb(249, 249, 249);
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.shipping img {
+  position: absolute;
+  animation: moveLeftToRight 8s linear infinite;
+  width: 80px;
+  height: 80px;
+}
+
+.shipping p {
+  font-weight: 500;
+}
+
+
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-800%);
+  }
+
+  100% {
+    transform: translateX(800%);
+  }
+}
+
+.nav-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 35px;
+  background-color: white;
+
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-section a {
+  font-size: 14px;
+}
+
+.nav-section a:hover{
+  transition: 0.8s ;
+  color: rgba(200, 0, 150, 0.821);
+  border: 1px dotted rgba(10, 10, 10, 0.77);
+}
+
+.nav-brand {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 3px solid black;
+  letter-spacing: 3px;
+}
+
+#icon-large {
+  font-size: 16px;
+}

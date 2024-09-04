@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.foot-container
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 35px;
+}
+
+.left .social-media a
+{
+    padding-left: 15px;
+    font-size: 28px;
+    color: #1f0000;
+}
+
+.left .social-media a:hover
+{
+    padding-left: 15px;
+    font-size: 28px;
+    color: #f853fbbd;
+    transition: 0.9s ;
+}
+
+.left h1
+{
+    margin: 15px;
+    font-weight: 600;
+    font-size: 40px;
+    background: linear-gradient(150deg , rgb(217, 0, 255),rgba(238, 255, 1, 0.87));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.container .left .social-media i{
+    padding-right: 15px;
+}
+
+.left p{
+    margin-left: 18px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    font-weight: 400; 
+    letter-spacing: 1px;
+}
+
+.nav-1 ul
+{
+    list-style-type: none;
+}
+
+.nav-1 ul li a ,.nav-2 ul li a
+{
+    margin: 25px ;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+}
+
+.nav-2 ul
+{
+    list-style-type: none;
+}
+
+.nav-2 ul li , .nav-1 ul li
+{
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.nav-1 ul li:hover , .nav-2 ul li:hover{
+    cursor: pointer;
+    background: linear-gradient(150deg , rgb(217, 0, 255),rgba(238, 255, 1, 0.87));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.8s ;
+}
+
+.nav-1 ,.nav-2 , ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+

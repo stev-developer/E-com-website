@@ -1,0 +1,92 @@
+.Product-list {
+    padding: 20px;
+    height: 100vh;
+    background-color: #d7d7cb;
+}
+
+.Product-list .headerp {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #333;
+}
+
+.card {
+    background: transparent;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    height: 550px;
+    width: 300px;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.white {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.sale-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #686767;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.white img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.pro-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.pro-cost {
+    font-size: 16px;
+    color: #616161;
+    margin: 5px 0;
+}
+
+.pro-cart-btn {
+    background-color: transparent;
+    width: 90%;
+    color: #616161;
+    border: 1px solid #616161;
+    margin-top: 10px;
+    border-radius: 1px;
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.pro-cart-btn:hover {
+    background-color: #616161;
+    color: white;
+}
+
+.body1 {
+    width: 90%;
+    margin: 0 auto;
+    height: 400px;
+}
